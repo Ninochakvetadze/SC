@@ -1,0 +1,128 @@
+@mixin space1 {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #e89f71;
+    border-radius: 50%;
+}
+@mixin space-1 {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #e89f71;
+    margin: 7px 7px;
+}
+@mixin space-active {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+}
+@mixin arrows {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 15px 18px;
+}
+@mixin myh1 {
+    width: 374px;
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin-bottom: 16px;
+}
+@mixin myh2 {
+    font-size: 28px;
+    font-weight: 600px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+@mixin myheaderp {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin-top: 88px;
+    margin-left: 515px;
+    margin-bottom: 32px;
+}
+@mixin section3-p1 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #3a3a3a;
+    line-height: 28.8px;
+    margin-bottom: 8px;
+}
+@mixin section3-p2 {
+    font-size: 16px;
+    font-weight: 500px;
+    color: #898989;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+@mixin section3-p3 {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #3a3a3a;
+    line-height: 24px;
+    display: inline;
+}
+@mixin section3-p4 {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #b0b0b0;
+    margin-left: 16px;
+}
+@mixin sale1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #e97171;
+    padding: 16px 8px;
+    color: #ffffff;
+    font-weight: 500px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 200px;
+}
+@mixin section4-p1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #3a3a3a;
+    width: 378px;
+    height: 96px;
+    margin-bottom: 8px;
+}
+@mixin section4-p2 {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #616161;
+    width: 300px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+@mixin section4-p3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+}
+@mixin section4-p4 {
+    font-size: 28px;
+    font-weight: 600px;
+    line-height: 33.6px;
+    color: #3a3a3a;
+}
+@mixin section5-p1 {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 28.8px;
+    color: #3a3a3a;
+    width: 247px;
+}
+@mixin section5-p2 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #898989;
+}
